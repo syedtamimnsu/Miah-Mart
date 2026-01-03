@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <!-- SEO -->
+    <title>MiahMart - Baby Shop HTML Template - Wishlist</title>
+    <meta name="author" content="MiahIT Inc">
+    <meta name="description" content="Tech Company Website Template">
+    <meta name="keywords" content="MiahMart, Baby, portfolio, business, html template">
+    <link rel="icon" href="assets/img/Miah-Mart.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome CDN (FIXED) -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/app.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+
+</head>
+
+<body>
+<div class="slider-drag-cursor">
+    <i class="fas fa-angle-left me-2"></i> DRAG <i class="fas fa-angle-right ms-2"></i>
+</div>
+<div class="slider-drag-cursor"><i class="fas fa-angle-left me-2"></i> DRAG <i class="fas fa-angle-right ms-2"></i></div>
+<div id="QuickView" class="white-popup mfp-hide">
+    <div class="container bg-white rounded-10">
+        <div class="row gx-60">
+            <div class="col-lg-6">
+                <div class="product-big-img">
+                    <div class="img"><img src="assets/img/product/post-card1-6.png" alt="Product Image"></div>
+                </div>
+            </div>
+            <div class="col-lg-6 align-self-center">
+                <div class="product-about">
+                    <p class="price">$120.85<del>$150.99</del></p>
+                    <h2 class="product-title">Ultricies At Torquent Dui</h2>
+                    <div class="product-rating">
+                        <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span></div><a href="shop-details.html" class="woocommerce-review-link">(<span class="count">4</span> customer reviews)</a>
+                    </div>
+                    <p class="text">Prepare to embark on a sensory journey with the Bosco Apple, a fruit that transcends the ordinary and promises an unparalleled taste experience. These apples are nothing short of nature’s masterpiece, celebrated for their distinctive blend of flavors and their captivating visual allure.</p>
+                    <div class="mt-2 link-inherit">
+                        <p><strong class="text-title me-3">Availability:</strong><span class="stock in-stock"><i class="far fa-check-square me-2 ms-1"></i>In Stock</span></p>
+                    </div>
+                    <div class="actions">
+                        <div class="quantity"><button class="quantity-minus qty-btn"><i class="far fa-minus"></i></button><input type="number" class="qty-input" step="1" min="1" max="100" name="quantity" value="1" title="Qty"><button class="quantity-plus qty-btn"><i class="far fa-plus"></i></button></div><button class="ot-btn">Add to Cart</button><a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
+                    </div>
+                    <div class="product_meta"><span class="sku_wrapper">SKU: <span class="sku">Bosco-Apple-Fruit</span></span><span class="posted_in">Category: <a href="shop.html">Fresh Fruits</a></span><span>Tags: <a href="shop.html">Fruits</a><a href="shop.html">Organic</a></span></div>
+                </div>
+            </div>
+        </div><button title="Close (Esc)" type="button" class="mfp-close">×</button>
+    </div>
+</div>
+<div class="ot-menu-wrapper">
+    <div class="ot-menu-area text-center"><button class="ot-menu-toggle"><i class="fal fa-times"></i></button>
+        <div class="mobile-logo"><a href="index.html"><img src="assets/img/logo.png" alt="MiahIT"></a></div>
+        <div class="ot-mobile-menu">
+            <ul>
+                <li><a href="index.html">Home</a>
+                    <!--<li class="menu-item-has-children"><a href="index.html">Home</a>-->
+                    <!--<ul class="sub-menu">-->
+                    <!--<li><a href="index.html">Home One</a></li>-->
+                    <!--<li><a href="index-2.html">Home Two</a></li>-->
+                    <!--<li><a href="index-3.html">Home Three</a></li>-->
+                    <!--</ul>-->
+                </li>
+                <li class="menu-item-has-children"><a href="#">Shop</a>
+                    <ul class="sub-menu">
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="shop-details.html">Shop Details</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                        <li><a href="checkout.html">Checkout</a></li>
+                        <li><a href="wishlist.html">Wishlist</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="#">Pages</a>
+                    <ul class="sub-menu">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="faq.html">Faq</a></li>
+                        <li><a href="testimonial.html">Testimonial</a></li>
+                        <li><a href="error.html">Error Page</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="#">Blog</a>
+                    <ul class="sub-menu">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="blog-grid.html">Blog Grid Style</a></li>
+                        <li><a href="blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="sidemenu-wrapper sidemenu-cart">
+    <div class="sidemenu-content"><button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
+        <div class="widget woocommerce widget_shopping_cart">
+            <h3 class="widget_title">Shopping cart</h3>
+            <div class="widget_shopping_cart_content">
+                <ul class="woocommerce-mini-cart cart_list product_list_widget">
+                    <li class="woocommerce-mini-cart-item mini_cart_item"><a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a><a href="#"><img src="assets/img/product/post-card1-1.png" alt="Cart Image">White One-Piece Dress</a><span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>940.00</span></span></li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item"><a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a><a href="#"><img src="assets/img/product/post-card1-2.png" alt="Cart Image">Round New Red Toy</a><span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>899.00</span></span></li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item"><a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a><a href="#"><img src="assets/img/product/post-card1-3.png" alt="Cart Image">The Playtime Excitement!</a><span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>756.00</span></span></li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item"><a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a><a href="#"><img src="assets/img/product/post-card1-4.png" alt="Cart Image">Brown Lather Carriage</a><span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>723.00</span></span></li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item"><a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a><a href="#"><img src="assets/img/product/post-card1-5.png" alt="Cart Image">Ultricies At Torquent Dui</a><span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>1080.00</span></span></li>
+                </ul>
+                <p class="woocommerce-mini-cart__total total"><strong>Subtotal:</strong><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>4398.00</span></p>
+                <p class="woocommerce-mini-cart__buttons buttons"><a href="cart.html" class="ot-btn wc-forward">View cart</a><a href="checkout.html" class="ot-btn checkout wc-forward">Checkout</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sidemenu-wrapper sidemenu-info">
+    <div class="sidemenu-content"><button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
+        <div class="widget">
+            <div class="ot-widget-about">
+                <div class="about-logo"><a href="index.html"><img src="assets/img/logo.png" alt="MiahMart"></a></div>
+                <p class="about-text">An IT consultancy can help you assess your technology needs and develop a technology strategy that aligns with your business</p>
+                <div class="ot-social">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a></div>
+            </div>
+        </div>
+        <div class="widget">
+            <h3 class="widget_title">Contact Us</h3>
+            <div class="ot-widget-contact">
+                <div class="info-box">
+                    <div class="info-box_icon"><i class="fas fa-location-dot"></i></div>
+                    <p class="info-box_text"> 178-10 Wexford Terrace, Jamaica, NY 11432, United States</p>
+                </div>
+                <div class="info-box">
+                    <div class="info-box_icon"><i class="fas fa-phone"></i></div>
+                    <p class="info-box_text"><a href="tel:+13472389284" class="info-box_link">+1 347-238-9284</a><a href="tel:+13472389284" class="info-box_link">+1 347-238-9284</a></p>
+                </div>
+                <div class="info-box">
+                    <div class="info-box_icon"><i class="fas fa-envelope"></i></div>
+                    <p class="info-box_text"><a href="mailto:info@miahit.com" class="info-box_link">info@miahit.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="widget">
+            <h3 class="widget_title">Newsletter</h3>
+            <div class="newsletter-widget">
+                <p class="footer-text">Sign up to searing weekly newsletter to get the latest updates from us.</p>
+                <form action="#" class="newsletter-form">
+                    <div class="form-group"><input class="form-control" type="email" placeholder="Enter Email Address" required=""></div><button type="submit" class="icon-btn"><i class="fal fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<header class="ot-header header-layout1">
+    <div class="header-top">
+        <div class="container">
+            <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
+                <div class="col-auto d-none d-lg-block">
+                    <div class="header-links">
+                        <ul>
+                            <li><i class="fas fa-location-dot"></i><a target="_blank" href="https://www.google.com/maps/">178-10 Wexford Terrace, Jamaica, NY 11432, United States</a></li>
+                            <li><i class="fas fa-envelope"></i><a href="mailto:info@example.com">info@miahit.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <!--<p class="header-notice">Miah-Mart Flash Discount: Starting at <span class="text-title">30% Off</span></p>-->
+                </div>
+                <div class="col-auto d-none d-xl-block">
+                    <div class="header-links">
+                        <ul>
+                            <li><i class="fa-solid fa-circle-question"></i><a href="contact.html">Help</a></li>
+                            <li><i class="fa-solid fa-user"></i><a href="contact.html">Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sticky-wrapper">
+        <div class="menu-area">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-auto">
+                        <div class="header-logo"><a href="index.html"><img src="assets/img/logo.png" alt="MiahMart"></a></div>
+                    </div>
+                    <div class="col-auto">
+                        <nav class="main-menu d-none d-lg-inline-block">
+                            <ul>
+                                <li><a href="index.html">Home</a>
+                                    <!--<li class="menu-item-has-children"><a href="index.html">Home</a>-->
+                                    <!--<ul class="sub-menu">-->
+                                    <!--<li><a href="index.html">Home One</a></li>-->
+                                    <!--<li><a href="index-2.html">Home Two</a></li>-->
+                                    <!--&lt;!&ndash;<li><a href="index-3.html">Home Three</a></li>&ndash;&gt;-->
+                                    <!--</ul>-->
+                                </li>
+                                <li class="menu-item-has-children"><a href="#">Shop</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="shop.html">Shop</a></li>
+                                        <li><a href="shop-details.html">Shop Details</a></li>
+                                        <li><a href="cart.html">Cart</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                        <li><a href="wishlist.html">Wishlist</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children"><a href="#">Pages</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="faq.html">Faq</a></li>
+                                        <li><a href="testimonial.html">Testimonial</a></li>
+                                        <li><a href="error.html">Error Page</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children"><a href="#">Blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="blog-grid.html">Blog Grid Style</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-auto">
+                        <div class="header-button">
+                            <form action="#" class="header-form">
+                                <div class="form-group"><select name="category" id="category" class="form-select nice-select">
+                                    <option value="" selected="selected" disabled="disabled">Categories</option>
+                                    <option value="game-and-toy">Game And toy</option>
+                                    <option value="kid-clothing">Kid Clothing</option>
+                                    <option value="kid-books">Kid Books</option>
+                                    <option value="indoor-play">Indoor Play</option>
+                                    <option value="smart-toys">Smart Toys</option>
+                                </select><i class="fa-sharp fa-solid fa-layer-group"></i></div>
+                                <div class="form-group"><input type="text" class="form-control" placeholder="Type your products.."></div>
+                                <button type="submit" class="submit-btn simple-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </form><a href="wishlist.html" class="icon-btn d-none d-sm-block"><span class="badge">3</span><i class="far fa-heart"></i></a>
+                            <button type="button" class="icon-btn sideMenuCart"><span class="badge">5</span><i class="fa-solid fa-basket-shopping"></i></button>
+
+                            <button type="button" class="icon-btn sideMenuInfo d-none d-lg-block"><i class="fa-solid fa-bars"></i></button>
+                            <button type="button" class="ot-menu-toggle d-block d-lg-none"><i class="fa-solid fa-list"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcrumb-bg.png">
+    <div class="container">
+        <div class="breadcumb-content">
+            <h1 class="breadcumb-title" data-cue="slideInUp">Wishlist</h1>
+            <ul class="breadcumb-menu">
+                <li data-cue="slideInUp" data-delay="100">
+                    <a href="index-2.html">Home</a>
+                </li>
+                <li data-cue="slideInUp" data-delay="100">Wishlist</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="space">
+<div class="container">
+<div class="tinv-wishlist woocommerce tinv-wishlist-clear">
+<div class="tinv-header">
+    <h2 class="mb-30">Wishlist</h2>
+</div>
+<form action="#" method="post" autocomplete="off">
+    <table class="tinvwl-table-manage-list">
+        <thead>
+        <tr>
+            <th class="product-cb">
+                <input type="checkbox" class="global-cb" title="Select all for bulk action">
+            </th>
+            <th class="product-remove"></th>
+            <th class="product-thumbnail">&nbsp;</th>
+            <th class="product-name">
+                <span class="tinvwl-full">Product Name</span>
+                <span class="tinvwl-mobile">Product</span>
+            </th>
+            <th class="product-price">Unit Price</th>
+            <th class="product-date">Date Added</th>
+            <th class="product-stock">Stock Status</th>
+            <th class="product-action">&nbsp;</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="wishlist_item">
+            <td class="product-cb">
+                <input type="checkbox" name="wishlist_pr[]" value="58" title="Select for bulk action">
+            </td>
+            <td class="product-remove">
+                <button type="submit" name="tinvwl-remove" value="58" title="Remove">
+                    <i class="fal fa-times"></i>
+                </button>
+            </td>
+            <td class="product-thumbnail">
+                <a href="shop-details.html">
+                    <img src="assets/img/product/post-card1-1.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image">
+                </a>
+            </td>
+            <td class="product-name">
+                <a href="shop-details.html">White One-Piece Dress</a>
+            </td>
+            <td class="product-price">
+                    <span class="woocommerce-Price-amount amount">
+                      <bdi>
+                          <span class="woocommerce-Price-currencySymbol">$</span>45.00 </bdi>
+                    </span>
+            </td>
+            <td class="product-date">
+                <time class="entry-date" datetime="2023-11-21 03:54:24">March 21, 2023</time>
+            </td>
+            <td class="product-stock">
+                <p class="stock in-stock">
+                      <span>
+                        <i class="fas fa-check"></i>
+                      </span>
+                    <span class="tinvwl-txt">In stock</span>
+                </p>
+            </td>
+            <td class="product-action">
+                <button class="button ot-btn" name="tinvwl-add-to-cart" value="58" title="Add to Cart">
+                    <i class="far fa-shopping-cart"></i>
+                    <span class="tinvwl-txt">Add to Cart</span>
+                </button>
+            </td>
+        </tr>
+        <tr class="wishlist_item">
+            <td class="product-cb">
+                <input type="checkbox" name="wishlist_pr[]" value="60" title="Select for bulk action">
+            </td>
+            <td class="product-remove">
+                <button type="submit" name="tinvwl-remove" value="60" title="Remove">
+                    <i class="fal fa-times"></i>
+                </button>
+            </td>
+            <td class="product-thumbnail">
+                <a href="shop-details.html">
+                    <img src="assets/img/product/post-card1-2.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image">
+                </a>
+            </td>
+            <td class="product-name">
+                <a href="shop-details.html">Tinci Dunt Pharetra Soda</a>
+            </td>
+            <td class="product-price">
+                <ins>
+                      <span class="woocommerce-Price-amount amount">
+                        <bdi>
+                            <span class="woocommerce-Price-currencySymbol">$</span>18.00 </bdi>
+                      </span>
+                </ins>
+                <del>
+                      <span class="woocommerce-Price-amount amount">
+                        <bdi>
+                            <span class="woocommerce-Price-currencySymbol">$</span>20.00 </bdi>
+                      </span>
+                </del>
+            </td>
+            <td class="product-date">
+                <time class="entry-date" datetime="2023-11-21 03:54:24">March 21, 2023</time>
+            </td>
+            <td class="product-stock">
+                <p class="stock in-stock">
+                      <span>
+                        <i class="fas fa-check"></i>
+                      </span>
+                    <span class="tinvwl-txt">In stock</span>
+                </p>
+            </td>
+            <td class="product-action">
+                <button class="button ot-btn" name="tinvwl-add-to-cart" value="60" title="Add to Cart">
+                    <i class="far fa-shopping-cart"></i>
+                    <span class="tinvwl-txt">Add to Cart</span>
+                </button>
+            </td>
+        </tr>
+        <tr class="wishlist_item">
+            <td class="product-cb">
+                <input type="checkbox" name="wishlist_pr[]" value="60" title="Select for bulk action">
+            </td>
+            <td class="product-remove">
+                <button type="submit" name="tinvwl-remove" value="60" title="Remove">
+                    <i class="fal fa-times"></i>
+                </button>
+            </td>
+            <td class="product-thumbnail">
+                <a href="shop-details.html">
+                    <img src="assets/img/product/post-card1-3.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image">
+                </a>
+            </td>
+            <td class="product-name">
+                <a href="shop-details.html">The Playtime Excitement!</a>
+            </td>
+            <td class="product-price">
+                <ins>
+                      <span class="woocommerce-Price-amount amount">
+                        <bdi>
+                            <span class="woocommerce-Price-currencySymbol">$</span>18.00 </bdi>
+                      </span>
+                </ins>
+                <del>
+                      <span class="woocommerce-Price-amount amount">
+                        <bdi>
+                            <span class="woocommerce-Price-currencySymbol">$</span>20.00 </bdi>
+                      </span>
+                </del>
+            </td>
+            <td class="product-date">
+                <time class="entry-date" datetime="2023-11-21 03:54:24">March 21, 2023</time>
+            </td>
+            <td class="product-stock">
+                <p class="stock in-stock">
+                      <span>
+                        <i class="fas fa-check"></i>
+                      </span>
+                    <span class="tinvwl-txt">In stock</span>
+                </p>
+            </td>
+            <td class="product-action">
+                <button class="button ot-btn" name="tinvwl-add-to-cart" value="60" title="Add to Cart">
+                    <i class="far fa-shopping-cart"></i>
+                    <span class="tinvwl-txt">Add to Cart</span>
+                </button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+<div class="social-buttons">
+    <span>Share on</span>
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=permalink" class="social social-facebook" title="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/share?url=permalink" class="social social-twitter" title="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a href="http://pinterest.com/pin/create/button/?url=permalink" class="social social-pinterest" title="Pinterest">
+                <i class="fab fa-pinterest-p"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://api.whatsapp.com/send?text=permalink" class="social social-whatsapp" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </li>
+        <li>
+            <a href="http://vecurosoft.com/products/wordpress/foodelio/wishlist/974b61/" class="social social-clipboard" title="Clipboard">
+                <i class="far fa-clipboard"></i>
+            </a>
+        </li>
+        <li>
+            <a href="mailto:?body=permalink" class="social social-email" title="Email">
+                <i class="far fa-envelope"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+</div>
+</div>
+</div>
+
+<footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer_bg_1.jpg">
+    <div class="footer-shape1 pulse"><img src="assets/img/shape/footer-shape1.png" alt="img" data-cue="slideInUp"></div>
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-contact-wrap">
+                <div class="footer-contact" data-cue="slideInUp">
+                    <div class="box-icon"><img src="assets/img/icon/phone.svg" alt="icon"></div>
+                    <div class="media-body">
+                        <p class="box-label">Call Us 7/24</p>
+                        <h4 class="box-title"><a href="tel:+13472389284">+1 347-238-9284</a></h4>
+                    </div>
+                </div>
+                <div class="footer-contact" data-cue="slideInUp">
+                    <div class="box-icon" data-theme-color="#FE5A86"><img src="assets/img/icon/email.svg" alt="icon"></div>
+                    <div class="media-body">
+                        <p class="box-label">Make a Quote</p>
+                        <h4 class="box-title"><a href="mailto:info@miahit.com">info@miahit.com</a></h4>
+                    </div>
+                </div>
+                <div class="footer-contact" data-cue="slideInUp">
+                    <div class="box-icon" data-theme-color="#FC800A"><img src="assets/img/icon/time.svg" alt="icon"></div>
+                    <div class="media-body">
+                        <p class="box-label">Opening Hour</p>
+                        <h4 class="box-title">Sunday - Fri: 9 aM - 6 pM</h4>
+                    </div>
+                </div>
+                <div class="footer-contact" data-cue="slideInUp">
+                    <div class="box-icon" data-theme-color="#16C4E3"><img src="assets/img/icon/location.svg" alt="icon"></div>
+                    <div class="media-body">
+                        <p class="box-label">Our Location</p>
+                        <h4 class="box-title">178-10 Wexford Terrace</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="widget-area">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-md-6 col-xl-auto" data-cue="slideInUp">
+                    <div class="widget footer-widget">
+                        <div class="ot-widget-about">
+                            <div class="about-logo"><a href="index.html"><img src="assets/img/Miah-Mart.png" alt="MiahMart"></a></div>
+                            <p class="about-text">Phasellus ultricies aliquam volutpat ullamcorper laoreet neque, a lacinia curabitur lacinia mollis</p>
+                            <div class="ot-social"><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto" data-cue="slideInUp">
+                    <div class="widget widget_nav_menu footer-widget">
+                        <h3 class="widget_title">Custumers Support</h3>
+                        <div class="menu-all-pages-container">
+                            <ul class="menu">
+                                <li><a href="shop.html">Store List</a></li>
+                                <li><a href="about.html">Opening Hours</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="about.html">Return Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto" data-cue="slideInUp">
+                    <div class="widget widget_nav_menu footer-widget">
+                        <h3 class="widget_title">My Account</h3>
+                        <div class="menu-all-pages-container">
+                            <ul class="menu">
+                                <li><a href="cart.html">Cart Page</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="shop.html">Compare</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto" data-cue="slideInUp">
+                    <div class="widget widget_nav_menu footer-widget">
+                        <h3 class="widget_title">Services</h3>
+                        <div class="menu-all-pages-container">
+                            <ul class="menu">
+                                <li><a href="blog.html">Service Areas</a></li>
+                                <li><a href="blog.html">Toys, Games</a></li>
+                                <li><a href="blog.html">Service Offerings</a></li>
+                                <li><a href="blog.html">Pricing Table</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto" data-cue="slideInUp">
+                    <div class="widget footer-widget">
+                        <h3 class="widget_title">Newsletter</h3>
+                        <div class="newsletter-widget">
+                            <p class="footer-text">Sign up to searing weekly newsletter to get the latest updates.</p>
+                            <form action="#" class="newsletter-form">
+                                <div class="form-group"><input class="form-control" type="email" placeholder="Enter Email Address" required=""></div>
+                                <button type="submit" class="icon-btn"><i class="fa fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-wrap bg-theme">
+        <div class="container text-center">
+            <div class="row gy-3 justify-content-between align-items-center">
+                <div class="col-md-auto" data-cue="slideInUp">
+                    <p class="copyright-text">&copy; 2025 <a href="index.html">MiahIT</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-auto">
+                    <div class="payment-methods" data-cue="slideInUp"><img src="assets/img/normal/payments.png" alt="Icon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="scroll-top">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+
+    </svg>
+
+</div>
+<script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/app.min.js"></script>
+<script src="assets/js/particles-config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>
